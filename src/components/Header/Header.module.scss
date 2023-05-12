@@ -1,0 +1,22 @@
+.header{
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > img{
+    height: 70px;
+    object-fit: contain;
+  }
+
+  &>.text{
+    margin-top: 8px;
+    font-size: 24px;
+    word-spacing: 1.5;
+
+    span{
+      color: red
+    }
+  }
+}
